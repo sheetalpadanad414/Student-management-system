@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-graduation-cap"></i> Student Management System</h1>
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="course" placeholder="Course" required>
+            <button type="submit"><i class="fas fa-plus"></i> Add Student</button>
+        </form>
+        <div id="studentsList"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
